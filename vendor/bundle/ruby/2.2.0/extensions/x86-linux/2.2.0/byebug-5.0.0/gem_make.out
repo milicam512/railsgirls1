@@ -1,0 +1,15 @@
+/home/milica/.rvm/rubies/ruby-2.2.1/bin/ruby -r ./siteconf20150607-4926-1466wtt.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling threads.c
+compiling context.c
+compiling byebug.c
+compiling breakpoint.c
+compiling locker.c
+linking shared-object byebug/byebug.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20150607-4926-pavux7/byebug

@@ -1,0 +1,12 @@
+/home/milica/.rvm/rubies/ruby-2.2.1/bin/ruby -r ./siteconf20150607-4926-1qr3dn1.rb extconf.rb
+
+make "DESTDIR=" clean
+make: *** No rule to make target 'clean'.  Stop.
+
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+make "DESTDIR=" install
+echo "Nada."
+Nada.
